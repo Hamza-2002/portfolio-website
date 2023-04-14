@@ -1,0 +1,47 @@
+body{
+    font-family: 'Vollkorn', serif;
+}
+.inner{
+  overflow: hidden;
+}
+
+.inner img{
+  transition: transform 1s ;
+}
+
+.inner img:hover{
+  transform: scale(1.5);
+  transition: transform 1s;
+  cursor: pointer;
+}
+
+
+.navbar-nav a{
+    text-decoration: none;
+    color:lightslategray;
+
+}
+
+.container-pro{
+  height: 200px;
+  background-color: #f9bf3f;
+}
+
+.container-pro h1{
+  padding: 30px 20px;
+}
+
+.container-pro .btn{
+  padding:;
+}
+
+.arrow{
+
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  cursor: pointer;
+
+  display: none;
+
+}
